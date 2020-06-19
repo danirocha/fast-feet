@@ -59,6 +59,7 @@ To execute your project, follow the instruction below:
 
 - [Node](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine
 - [Sequelize](https://sequelize.org/) - A promise-based Node.js ORM
+- [Yup](https://github.com/jquense/yup) - A JavaScript schema builder for value parsing and validation
 
 ## Authors
 
