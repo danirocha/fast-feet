@@ -1,0 +1,27 @@
+{
+  "name": "fast-feet",
+  "description": "API for a package distributor app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "author": "Daniela Rocah Silva",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.13",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sequelize-cli": "^5.5.1"
+  }
+}
