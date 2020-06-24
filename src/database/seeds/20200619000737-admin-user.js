@@ -12,8 +12,6 @@ module.exports = {
           email: 'admin@fastfeet.com',
           password_hash: bcrypt.hashSync('123456', 8),
           admin: true,
-          created_at: new Date(),
-          updated_at: new Date(),
         },
       ],
       {},
@@ -21,6 +19,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.bulkDelete('People', null, {});
+    return queryInterface.bulkDelete('users', null, {});
   },
 };
