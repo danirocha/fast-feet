@@ -32,6 +32,10 @@ class User extends Model {
   isAdmin() {
     return this.admin;
   }
+
+  static associate(models) {
+    this.belongsTo(models.File, { foreignKey: 'avatar_id', as: 'avatar' });
+  }
 }
 
 module.exports = User;
